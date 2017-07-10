@@ -46,9 +46,9 @@ module.exports = function (source) {
 					const memberName = importMember.memberName;
 					const newName = importMember.memberNewName;
 
-					transpiledImport += `import ${newName} = require('${modulePath}/${memberName}');`;
+					transpiledImport += `import ${newName} from '${modulePath}/${memberName}';`;
 				} else {
-					transpiledImport += `import ${importMember} = require('${modulePath}/${importMember}');`;
+					transpiledImport += `import ${importMember} from '${modulePath}/${importMember}';`;
 				}
 
 				if (memberIndex > 0) {
