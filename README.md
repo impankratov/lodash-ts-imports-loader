@@ -9,19 +9,16 @@
 ## Overview 
 [[jump to TOC](#jump-to)]
 
-A webpack preloader which transpiles ES6 lodash imports into 
-typescript imports to help with tree-shaking.
+Transforms lodash function imports into sub-modules imports, which allows for a tree-shaking.
 
-Basically transpiles from ES6 syntax:
+It transforms from:
 
 ```js
 import { debounce } from 'lodash';
 ```
-
-into typescript syntax:
-
+to:
 ```js
-import debounce = require('lodash/debounce');
+import debounce from 'lodash/debounce';
 ```
 
 before the source code is being taken through the typescript compiler.
@@ -33,13 +30,13 @@ This way webpack 2 will be able to only include the code that's being actually u
 
 1. Install the package:  
 ```sh
-$ npm install lodash-ts-imports-loader --save-dev
+$ npm install lodash-ts-webpack-plugin --save-dev
 ```
 
 ## Usage
 [[jump to TOC](#jump-to)]
 
-In your `webpack.config.js` add the `lodash-ts-imports-loader` preloader:
+In your `webpack.config.js` add the `lodash-ts-webpack-plugin` preloader:
 
 ```js
 // ...
@@ -47,9 +44,9 @@ module: {
     rules: [
         {
             test: /\.ts$/,
-            loader: 'lodash-ts-imports-loader',
+            loader: 'lodash-ts-webpack-plugin',
             exclude: /node_modules/,
-            enforce: "pre"
+            enforce: 'pre'
         },
         // ...
     ],
@@ -86,9 +83,9 @@ This time the bundle size should be larger.
 [[jump to TOC](#jump-to)]
 
 NPM:  
-[https://www.npmjs.com/package/lodash-ts-imports-loader](https://www.npmjs.com/package/lodash-ts-imports-loader)  
+[https://www.npmjs.com/package/lodash-ts-webpack-plugin](https://www.npmjs.com/package/lodash-ts-webpack-plugin)  
 GITHUB:  
-[https://github.com/efidiles/lodash-ts-imports-loader.git](https://github.com/efidiles/lodash-ts-imports-loader.git)  
+[https://github.com/efidiles/lodash-ts-webpack-plugin.git](https://github.com/efidiles/lodash-ts-webpack-plugin.git)  
 
 ## Author 
 [[jump to TOC](#jump-to)]
@@ -100,7 +97,7 @@ GITHUB:
 
 ## License 
 [[jump to TOC](#jump-to)]  
-Released under the [MIT license](https://github.com/lodash-ts-imports-loader/lodash-ts-imports-loader/blob/master/LICENSE).
+Released under the [MIT license](https://github.com/lodash-ts-webpack-plugin/lodash-ts-webpack-plugin/blob/master/LICENSE).
 
 
-Copyright © 2016, [Eduard Fidiles](https://github.com/efidiles)  
+Copyright © 2017, [Eduard Fidiles](https://github.com/efidiles), [Ivan Pankratov](https://github.com/impankratov)
