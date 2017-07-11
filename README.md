@@ -97,8 +97,8 @@ GITHUB:
 
 **Ivan Pankratov**
 
-* [github/efidiles](https://github.com/impankratov)  
-* [twitter/efidiles](http://twitter.com/impankratov)  
+* [github/impankratov](https://github.com/impankratov)  
+* [twitter/impankratov](http://twitter.com/impankratov)  
 
 ## License 
 [[jump to TOC](#jump-to)]  
