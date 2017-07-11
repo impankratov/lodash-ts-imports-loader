@@ -87,13 +87,18 @@ NPM:
 GITHUB:  
 [https://github.com/efidiles/lodash-ts-webpack-plugin.git](https://github.com/efidiles/lodash-ts-webpack-plugin.git)  
 
-## Author 
+## Authors 
 [[jump to TOC](#jump-to)]
 
 **Eduard Fidiles**
 
 * [github/efidiles](https://github.com/efidiles)  
 * [twitter/efidiles](http://twitter.com/efidiles)  
+
+**Ivan Pankratov**
+
+* [github/efidiles](https://github.com/impankratov)  
+* [twitter/efidiles](http://twitter.com/impankratov)  
 
 ## License 
 [[jump to TOC](#jump-to)]  
