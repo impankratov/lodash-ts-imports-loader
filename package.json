@@ -1,6 +1,6 @@
 {
   "name": "lodash-ts-webpack-plugin",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "author": "Eduard Fidiles, Ivan Pankratov",
   "license": "MIT",
   "description": "Transforms lodash function imports into sub-modules imports, which allows for a tree-shaking",
