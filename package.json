@@ -13,13 +13,13 @@
     "transpile",
     "typescript"
   ],
-  "homepage": "https://github.com/efidiles/lodash-ts-webpack-plugin#readme",
+  "homepage": "https://github.com/impankratov/lodash-ts-webpack-plugin#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/efidiles/lodash-ts-webpack-plugin.git"
+    "url": "git+https://github.com/impankratov/lodash-ts-webpack-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/efidiles/lodash-ts-webpack-plugin/issues"
+    "url": "https://github.com/impankratov/lodash-ts-webpack-plugin/issues"
   },
   "main": "index.js",
   "scripts": {

@@ -85,7 +85,7 @@ This time the bundle size should be larger.
 NPM:  
 [https://www.npmjs.com/package/lodash-ts-webpack-plugin](https://www.npmjs.com/package/lodash-ts-webpack-plugin)  
 GITHUB:  
-[https://github.com/efidiles/lodash-ts-webpack-plugin.git](https://github.com/efidiles/lodash-ts-webpack-plugin.git)  
+[https://github.com/impankratov/lodash-ts-webpack-plugin.git](https://github.com/efidiles/lodash-ts-webpack-plugin.git)  
 
 ## Authors 
 [[jump to TOC](#jump-to)]
